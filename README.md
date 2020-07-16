@@ -1,4 +1,12 @@
 # Text-Analysis-of-SEC-K-10-filings-using-NLTK-to-extract-sentiments
+SEC Form 10-K is the United States Securities and Exchange Commission’s form for the annual performance filings of public companies.
+
+This is auxiliary part of a larger project to predict time-series stock price movement prediction system.
+This stock price prediction system takes multiple inputs such as market chatter, industry performance, Historical data etc etc.
+Among these inputs, SEC K 10 filings are an important part.
+We wanted to quantify the findings from these filings.
+
+
 Objective of this project is to extract some sections (which are mentioned below) from SEC / EDGAR financial reports and perform text analysis to compute variables those are explained below. Link to SEC / EDGAR financial reports are given in excel spreadsheet “cik_list.xlsx”. 
 Please add https://www.sec.gov/Archives/ to every cells of column F (cik_list.xlsx) to access link to the financial report. 
 Example: Row 2, column F contains edgar/data/3662/0000950170-98-000413.txt
